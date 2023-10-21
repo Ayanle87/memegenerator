@@ -1,0 +1,30 @@
+.header {
+  height: 65px;
+  border: solid black 1px;
+  display: flex;
+
+  align-items: center;
+  padding-left: 20px;
+  color: #ffffff;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+.header-image {
+  width: 40px;
+  height: 30px;
+  padding-right: 10px;
+}
+.header-project {
+  position: fixed;
+  right: 0;
+  margin-right: 40px;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 599px) {
+  .header {
+    display: block;
+  }
+  .header-project {
+    display: none;
+  }
+}
